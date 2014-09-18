@@ -1,0 +1,38 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Chris In Ukraine
+tagline:	'American in Ukraine'
+description:	'My blog from Ukraine'
+url:		http://www.chris.in.ua
+
+author:
+  name:		'Chris Frank
+  url:		http://www.cfrank.org/
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/ChrisFrankMe
+    desc:	Follow me on twitter
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Chris Frank
+  url:		http://cfrank.org
