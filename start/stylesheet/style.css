@@ -1,0 +1,74 @@
+*{
+    margin:     0;
+    padding:    0;
+}
+
+#linkContainer{
+    width: 381px;
+    height: 100px;
+    visibility: hidden;
+    margin: -100px auto 0 auto;
+    transition: all 0.7s ease;
+    display: block;
+    line-height: 100px;
+}
+
+#linkContainer ul{
+    list-style: none;
+    text-align: center;
+}
+
+#linkContainer ul li{
+    float: left;
+    margin-right: 30px;
+}
+
+#linkContainer ul li a{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+#linkContainer ul li:last-child{
+    margin-right: 0;
+}
+
+#linkContainer.show{
+    margin-top: 0;
+    visibility: visible;
+}
+
+#searchContainer,
+#homeSearch{
+    width: 100%;
+    max-width: 1000px;
+    margin: 130px auto 0 auto;
+    text-align: center;
+}
+
+#homeSearch{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 70px;
+    outline: none;
+    border: 0px;
+    color: #a5a5a5;
+}
+
+#translate,
+#youtube{
+    cursor: pointer;
+}
+
+#youtubeHome a{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    color: #a5a5a5;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
